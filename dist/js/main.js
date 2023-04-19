@@ -79,7 +79,7 @@ let layoutHandler;
   function addClass() {
     hamburger.addEventListener('click', () => {
       getNav.classList.toggle('show');
-      getBody.classList.toggle('over');
+      // getBody.classList.toggle('over');
     });
   }
   addClass();
