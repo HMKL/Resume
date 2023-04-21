@@ -43,8 +43,7 @@ let layoutHandler;
         });
 
 
-        // gsap.registerPlugin(ScrollTrigger);
-
+        //PureCounter start
         new PureCounter({
             selector: ".count",
             start: 0,
@@ -56,6 +55,15 @@ let layoutHandler;
             decimals: 0,
             legacy: true,
         });
+        //PureCounter end
+
+
+        //AOS Init start
+        AOS.init({
+        })
+        //AOS Init end
+
+
 
 
     });

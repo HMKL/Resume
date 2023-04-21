@@ -7451,7 +7451,7 @@ header .wrap .hamburger span:before {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 50px 0 50px 10px;
+  padding: 50px 0 0 10px;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -7469,6 +7469,10 @@ header .wrap .hamburger span:before {
   position: relative;
   margin: 0 0 20px 0;
   transition: all 0.3s ease-in-out;
+}
+
+.resume-skills .wrap .inner .items:nth-of-type(3) {
+  margin: 0;
 }
 
 .resume-skills .wrap .inner .items .inside {
@@ -7753,7 +7757,7 @@ header .wrap .hamburger span:before {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 50px 0 50px 0;
+  padding: 50px 0 0 0;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -7828,6 +7832,10 @@ header .wrap .hamburger span:before {
   align-items: center;
   background: #007ced;
   border-radius: 8px;
+}
+
+.resume-contact {
+  padding: 30px 0 0 0;
 }
 
 .resume-contact span,
@@ -10684,7 +10692,6 @@ header .wrap .hamburger span:before {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 50px 0 50px 0px;
   }
 
   .resume-skills .wrap .inner .items {
@@ -10704,7 +10711,6 @@ header .wrap .hamburger span:before {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 50px 0 50px 0;
   }
 
   .resume-portfolio .inner .items {
@@ -12202,7 +12208,7 @@ header .wrap .hamburger span:before {
     background: url(../images/main_bg.png);
     background-size: cover;
     background-repeat: repeat;
-    max-height: 100vh;
+    background-attachment: fixed;
   }
 
   body .backImage .page {
@@ -12317,6 +12323,10 @@ header .wrap .hamburger span:before {
   .resume-portfolio .inner .items .photo:hover a:after {
     background: none;
     transition: all 0.3s ease-in-out;
+  }
+
+  .resume-contact {
+    padding: 70px 0 0 0;
   }
 
   .resume-contact .wrap .inner .mail {
