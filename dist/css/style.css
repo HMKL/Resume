@@ -7586,31 +7586,6 @@ header .wrap .hamburger span:before {
   padding: 25px 0 0 0;
 }
 
-.resume-cv .wrap .inner .items .certification {
-  padding: 20px 0 0 30px;
-  display: inline-block;
-}
-
-.resume-cv .wrap .inner .items .certification a {
-  display: inline-block;
-  position: relative;
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.resume-cv .wrap .inner .items .certification a:after {
-  content: "";
-  position: absolute;
-  width: 20%;
-  height: 2px;
-  background: #333;
-  top: 100%;
-  left: 0;
-  transition: all 0.3s ease-in-out;
-}
-
 .resume-cv .wrap .inner .items h3,
 .resume-cv .wrap .inner .items .h3 {
   font-weight: 600;
@@ -7644,7 +7619,7 @@ header .wrap .hamburger span:before {
   width: 10px;
   height: 10px;
   background: #007ced;
-  top: 6px;
+  top: 7px;
   left: -3px;
   border-radius: 50%;
 }
@@ -7677,7 +7652,6 @@ header .wrap .hamburger span:before {
   display: block;
 }
 
-.resume-cv .wrap .inner .items .item-cv ul li .inside p,
 .resume-cv .wrap .inner .items .item-cv ul li .inside h6,
 .resume-cv .wrap .inner .items .item-cv ul li .inside .h6 {
   font-size: 15px;
@@ -7696,6 +7670,29 @@ header .wrap .hamburger span:before {
   background: #000;
   top: 13px;
   left: 0;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.resume-cv .wrap .inner .items .item-cv ul li .inside a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+}
+
+.resume-cv .wrap .inner .items .item-cv ul li .inside a:after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 2px;
+  background: #333;
+  top: 100%;
+  left: 0;
+  transition: all 0.3s ease-in-out;
 }
 
 .resume-cv .wrap .inner .items .item-cv ul li .inside h6,
@@ -12297,11 +12294,11 @@ header .wrap .hamburger span:before {
     padding: 50px 0 0 0;
   }
 
-  .resume-cv .wrap .inner .items .certification a {
+  .resume-cv .wrap .inner .items .item-cv ul li .inside a {
     font-size: 16px;
   }
 
-  .resume-cv .wrap .inner .items .certification a:hover:after {
+  .resume-cv .wrap .inner .items .item-cv ul li .inside a:hover:after {
     width: 100%;
     transition: all 0.3s ease-in-out;
   }
