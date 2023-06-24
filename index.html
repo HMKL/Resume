@@ -12,10 +12,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.1.1/remixicon.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -134,11 +134,19 @@
 
                 </div>
                 <h3>Certification</h3>
-                <div class="certification">
-                    <a href="https://erp.scoalainformala.ro/store/diplomas/de995aee39b99caee708733ef4666d26a48fa61a/Certificate.pdf"
-                        target="_blank" rel="noopener noreferrer">Informal
-                        School of IT</a>
+                <div class="item-cv ">
+                    <ul>
+                        <li>
+                            <div class="inside">
+                                <a href="https://erp.scoalainformala.ro/store/diplomas/de995aee39b99caee708733ef4666d26a48fa61a/Certificate.pdf"
+                                    target="_blank" rel="noopener noreferrer">Informal
+                                    School of IT</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
+
+
             </div>
             <div class="items">
                 <h3>Experience</h3>
@@ -177,7 +185,7 @@
         <div class="resume-portfolio" id="portfolio">
     <div class="wrap">
         <p class="third">Portfolio</p>
-        <div class="inner">
+        <div data-aos-offset="100" data-aos-duration="300" data-aos="fade-down" class="inner aos-init aos-animate">
             <div class="items">
                 <div class="photo">
                     <img src="images/project1.png" alt="" class="img-fluid">
@@ -213,9 +221,9 @@
                 </div>
                 <div class="photo">
                     <img src="images/project5.png" alt="" class="img-fluid">
-                    <a href="https://osf-project-9b32f.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://osf-academy-01.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                         <div class="overlay">
-                            <p>OSF Academy</p>
+                            <p>Under Construction</p>
                         </div>
                     </a>
                 </div>
@@ -286,9 +294,9 @@
     <!-- end counting numbers -->
 
 
-
-
-
+    <!-- AOS Init start-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- AOS Init end -->
 
 
 
