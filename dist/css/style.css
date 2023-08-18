@@ -7780,6 +7780,13 @@ header .wrap .hamburger span:before {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  position: relative;
+}
+
+.resume-portfolio .inner .items:after {
+  content: "";
+  display: block;
+  width: calc(66.66% - 10px);
 }
 
 .resume-portfolio .inner .items .photo {
